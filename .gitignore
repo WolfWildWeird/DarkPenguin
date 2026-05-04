@@ -1,0 +1,13 @@
+# Fichiers de sauvegarde et temporaires de l'éditeur
+*~
+*.swp
+*.swo
+.vscode/
+
+# Fichiers système de macOS
+.DS_Store
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
