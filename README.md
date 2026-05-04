@@ -14,10 +14,10 @@
 ## Prérequis
 
 *   Une machine sous **ChromeOS** avec le support Linux (Crostini/Penguin) activé.
-*   Le thème souhaité (par défaut `CrosAdapta`) doit être installé dans l'un des répertoires suivants :
+*   Par défaut, le thème `CrosAdapta` sera utilisé, il doit être installé au préalable via `sudo apt install cros-adapta` ; vous pouvez aussi choisir le thème souhaité présent dans l'un des répertoires suivants :
     *   `/usr/share/themes/`
-    *   `~/.themes/`
     *   `~/.local/share/themes/`
+    *   `~/.themes/` (compatibility)
 
 ## Utilisation
 
