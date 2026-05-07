@@ -31,7 +31,8 @@
     ./darkpenguin.sh
     ```
 
-3.  Une fois le script terminé, vous devrez redémarrer votre conteneur Linux (Penguin) pour que tous les changements prennent effet. Vous pouvez l'arrêter en faisant un clic droit sur l'icône du terminal Linux dans la barre des tâches de ChromeOS puis en sélectionnant "Arrêter Linux".
+3.  Une fois le script terminé, vous devrez redémarrer votre conteneur Linux (Penguin) pour que tous les changements prennent effet. 
+Vous pouvez l'arrêter en faisant un clic droit sur l'icône du terminal Linux dans la barre des tâches de ChromeOS puis en sélectionnant "Arrêter Linux".
 
 ## Personnalisation
 
@@ -41,6 +42,13 @@ Vous pouvez modifier les variables suivantes en début de script pour utiliser u
 THEME=NomDeVotreTheme
 THEME_DARK=true # Mettre à 'false' ou commenter pour un thème clair
 ```
+
+
+## Todo
+
+- [ ] Créér un fichier `README.en.md`
+- [ ] Copie de  `/usr/share/themes/CrosAdapta/gtk-2.0/` vers `${HOME}/.local/share/themes/CrosAdapta/gtk-2.0/` afin de "noircirs" les variables contenu dans `colors.rc` 
+- [ ] ... terminer cette liste ...
 
 ## Licence
 
